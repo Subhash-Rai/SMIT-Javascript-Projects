@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Log in to Facebook</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Logo -->
+    <div class="logo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh9TZs3e6-fwZkhvUmrbe-tgMcU_CDmwNNgg&s"
+        alt="Facebook">
+    </div>
+
+    <!-- Login Form -->
+    <div class="login-box">
+      <input type="text" placeholder="Enter Your FullName " id="fullname">
+      <input type="email" placeholder="Mobile number or email" id="email">
+      <input type="password" placeholder="Password" id="firstpassword">
+      <div class="password-box">
+        <input type="password" placeholder="Confirm Password" id="confirmpassword">
+        <span class="toggle" onclick="showPassword()" id="show"><img
+            src="https://cdn-icons-png.flaticon.com/128/5076/5076452.png" alt="" id="show"></span>
+      </div>
+
+
+      <button id="loginbtn"></a>Log In</button>
+
+      <a href="javascript:(0)" id="forgot">Forgot password?</a>
+
+      <button id="create-btn"> <a href="../Register/register.html">Create new account</button>
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="login.js"></script>
+</body>
+
+</html>
