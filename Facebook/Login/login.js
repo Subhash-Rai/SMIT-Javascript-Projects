@@ -79,7 +79,9 @@ function login() {
     " Your Login",
     "Congratulations! Login successfully!");
 
-    firstPassword.value = "";
+    window.location.href = "/dashboard";
+
+    // firstPassword.value = "";
 };
 
 loginBtn.addEventListener("click", login);
